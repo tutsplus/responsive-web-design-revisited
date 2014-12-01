@@ -1,4 +1,4 @@
-### Tuts+ Course: 
+### Tuts+ Course: Responsive Web Design Revisited
 #### Instructor: Kezz Bracey
 
 In this course you’ll get up to speed with the very latest in Responsive Web Design. First you’ll learn what “responsive” really means today, and how a new “content first” approach lets you cater for all types of users from the ground up. Then you’ll create a complete responsive design using all the latest techniques.
