@@ -1,0 +1,181 @@
+body {
+	color: #474F55;
+}
+
+a,
+a:link,
+a:visited {
+	color: #03AB8D;
+	font-weight: 700;
+}
+
+a:hover,
+a:active {
+	color: #3084BF;
+}
+
+/* NAV MENU */
+
+ul.navmenu li a,
+ul.navmenu li a:link,
+ul.navmenu li a:visited {
+	color: #7B868E;
+	font-weight: 400;
+}
+
+ul.navmenu li a:hover,
+ul.navmenu li a:active {
+	color: #474F55;
+}
+
+/* expanded nav menu */
+@media (min-width: 61rem) {
+
+	ul.navmenu li a,
+	ul.navmenu li a:link,
+	ul.navmenu li a:visited {
+		border-bottom-style: solid;
+		border-bottom-size: 0.25rem;
+		border-bottom-color: white;
+	}
+
+	ul.navmenu li a:hover {
+		border-bottom-color: #00C3A1;
+	}
+
+	ul.navmenu li a:active,
+	ul.navmenu li a.active {
+		border-bottom-color: #03AB8D;
+	}
+
+	/* expanded nav child menu */
+	ul.navmenu li ul {
+		background-color: #E1EEF8;
+		border: 0.0625rem solid #ACC5D9;
+		border-bottom: 0;
+		box-shadow: 0 0.125rem 0.3125rem rgba(71, 79, 85, 0.3);
+	}
+
+	ul.navmenu li ul li a,
+	ul.navmenu li ul li a:link,
+	ul.navmenu li ul li a:visited {
+		border-bottom: 0.0625rem solid #ACC5D9;
+	}
+
+	ul.navmenu li ul li a:hover {
+		background-color: #EBF5FC;
+	}
+
+}
+
+/* collapsed nav menu */
+@media (max-width: 61rem) {
+
+	.navicon.closed {
+		background-color: #E1EEF8;
+		color: #7B868E;
+		border-bottom: 0.25rem solid #ACC5D9;
+	}
+
+	.navicon.open {
+		color: #fff;
+		background-color: #3084BF;
+		border-bottom: 0.25rem solid #1B679C;
+	}
+
+	ul.navmenu {
+		background-color: #E1EEF8;
+		border: 0.0625rem solid #ACC5D9;
+		border-bottom: 0;
+	}
+
+	ul.navmenu li a,
+	ul.navmenu li a:link,
+	ul.navmenu li a:visited {
+		border-bottom: 0.0625rem solid #ACC5D9;
+	}
+
+	/* collapsed nav child menu */
+	ul.navmenu li ul {
+		background-color: #EBF5FC;
+	}
+
+}
+
+/* HERO UNIT */
+
+.herounit {
+	background-color: #3084BF;
+	color: white;
+}
+
+a.button {
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+a.getstarted {
+	background-color: #00C3A1;
+	border-bottom: 0.25rem solid #03AB8D;     
+	color: #FFF;
+}
+
+a.learnmore {
+	background-color: #E1EEF8;
+	border-bottom: 0.25rem solid #ACC5D9;     
+	color: #474F55;
+}
+
+/* MAJOR SELLING POINTS */
+
+.point h2 {
+	color: #3084BF;
+}
+
+
+/* WELCOME SECTION */
+
+.welcome {
+	background-color: #EBF5FC;
+	border-top: 0.0625rem solid #ACC5D9;;
+	border-bottom: 0.0625rem solid #ACC5D9;
+}
+
+.infotext h1 {
+	color: #3084BF;
+}
+
+/* FEEDBACK SECTION */
+
+.feedback h1 {
+	color: #3084BF;
+}
+
+.says {
+	background-color: #EBF5FC;
+	border: 0.0625rem dashed #ACC5D9;
+	font-style: italic;
+}
+
+.source {
+	color: #3084BF;
+}
+
+/* FOOTER */
+
+.footer {
+	background-color: #3084BF;
+	color: white;
+}
+
+.copyright {
+	font-size: 1rem;
+}
+
+.icon a,
+.icon a:link,
+.icon a:visited,
+.icon a:hover,
+.icon a:active {
+	color: white;
+}

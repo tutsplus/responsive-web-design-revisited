@@ -1,0 +1,1 @@
+css-combine style.css > style.com.css && autoprefixer style.com.css && cssc style.com.css > style.min.css

@@ -1,0 +1,86 @@
+/*------------------*/
+/* Basic Code Shell */
+/*------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Optional min width */
+html {
+  min-width: 20rem;
+}
+
+body {
+  font-size: 1.125rem;
+  line-height: 1.618em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.313em;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0.563em 0;
+}
+
+h2 {
+  font-size: 2.25em;
+  margin: 0.625em 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 1.313em 0;
+}
+
+h4 {
+  font-size: 1.313em;
+  margin: 1.313em 0;
+}
+
+h5 {
+  font-size: 1.125em;
+  margin: 1.313em 0;
+}
+
+h6 {
+  font-size: 1em;
+  margin: 0.75em 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.wrap {
+  max-width: 75rem;
+  width: 100%;
+  margin: 0 auto;
+}
