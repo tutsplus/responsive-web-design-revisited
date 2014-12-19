@@ -5,6 +5,6 @@ In this course you’ll get up to speed with the very latest in Responsive Web D
 
 In this package you'll find all the code seen in the demonstrations throughout the course.
 
-**Available on Tuts+ December, 2014**
+View course: [Responsive Web Design Revisited](https://webdesign.tutsplus.com/courses/responsive-web-design-revisited)
 
 [View the demo](http://tutsplus.github.io/responsive-web-design-revisited/6.%20Optimization%20Stage/6.2%20Autoprefix%20Combine%20Minify/index.html)
